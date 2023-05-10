@@ -3,9 +3,11 @@
     <nav>
       <ul>
         <li class="nav-item">
-          <img src="./assets/build-a-bot-logo.png"
-               alt="build-a-bot-logo"
-               class="logo">Build-a-Bot
+          <img
+            src="./assets/build-a-bot-logo.png"
+            alt="build-a-bot-logo"
+            class="logo"
+          />Build-a-Bot
         </li>
       </ul>
     </nav>
@@ -16,13 +18,13 @@
 </template>
 
 <script>
-import RobotBuilder from "./build/RobotBuilder.vue";
+import RobotBuilder from './build/RobotBuilder.vue';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     //HomePage,
-    RobotBuilder
+    RobotBuilder,
   },
 };
 </script>
@@ -36,7 +38,9 @@ body {
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
+</style>
 
+<style scoped>
 main {
   margin: 0 auto;
   padding: 30px;
