@@ -1,20 +1,23 @@
 <template>
   <div class="home">
     <div>
-      <img src="../assets/robot-home.png"
-           alt="robot-home"
-           class="robot"
-           aria-hidden="true" />
+      <img
+        src="../assets/robot-home.png"
+        alt="robot-home"
+        class="robot"
+        aria-hidden="true"
+      />
     </div>
     <div class="get-started">
-      <a href="">Get started</a> building your first robot!
+      <router-link to="/build">Get started</router-link> building your first
+      robot!
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "HomePage",
+  name: 'HomePage',
   props: {
     msg: String,
   },
